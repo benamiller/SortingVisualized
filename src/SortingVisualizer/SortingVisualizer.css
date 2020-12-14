@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+.array-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 2%;
+}
+
+
+.array-bar {
+    flex: 1;
+    margin: 0 1px;
+}
+
+.button-container {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    bottom: 15vh;
+}
+
+.button-container > button {
+    margin: 0 2vh;
+    padding: 2vh;
+    font-family: 'JetBrains Mono';
+    font-size: 25px;
+}
